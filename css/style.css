@@ -1,0 +1,9 @@
+#hero {
+    background-image: url(../images/MyPhoto.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: top;
+    text-align: end;
+}
