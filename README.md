@@ -23,4 +23,4 @@ MIT License
 
 
 ## Deployed URL
-- https://emmaboadi.github.io/Emmanuel-Portfolio-Page/
+https://emmaboadi.github.io/Bootstrap-Portfolio/
