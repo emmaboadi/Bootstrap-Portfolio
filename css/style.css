@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(36, 36, 37);
+    color: white;}
+
+
+
 #hero {
     background-image: url(../images/MyPhoto.jpg);
     height: 500px;
@@ -6,4 +20,63 @@
     display: flex;
     background-position: top;
     text-align: end;
+}
+
+#hero h1 { 
+    color:aquamarine;
+  }
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-size: cover;
+    background-color:aquamarine !important;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+.cardContainer {
+    margin-top: 20px;}
+
+.navbar-nav {
+    margin-left: auto;}
+
+/* Define hover and focus styles for navigation links */
+#navbarNav a:hover, #navbarNav a:focus {
+	background-color:black;
+	color:aquamarine;
+	outline: none;
+}
+
+.btn {
+    background-color: aquamarine;
+    color: black;
+    outline: none;
+}
+
+/* Define hover and focus styles for buttons */
+.btn:hover, .btn:focus {
+	background-color:black;
+	color:aquamarine;
+	outline: none; }
+
+footer {
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+footer a:hover, footer a:focus{
+    background-color:aquamarine;
 }
